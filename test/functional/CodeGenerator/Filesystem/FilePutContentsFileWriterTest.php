@@ -23,7 +23,7 @@ final class FilePutContentsFileWriterTest extends TestCase
 {
     public function testWriteCreatesFile(): void
     {
-        $path        = 'someRandomDir';
+        $path        = '/tmp/someRandomDir';
         $filename    = 'testFilename.txt';
         $fullPath    = $path . DIRECTORY_SEPARATOR . $filename;
         $fileContent = 'Some Random Content';
