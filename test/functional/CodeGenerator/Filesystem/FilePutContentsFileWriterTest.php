@@ -9,7 +9,7 @@ use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;
 
 use function decoct;
-use function fileperms;
+use function Safe\fileperms;
 use function Safe\file_get_contents;
 use function Safe\rmdir;
 use function Safe\unlink;
