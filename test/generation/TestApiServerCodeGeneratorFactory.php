@@ -37,7 +37,7 @@ final class TestApiServerCodeGeneratorFactory
         array $specifications,
         FileWriter $fileWriter,
         string $rootNamespace = 'Test\\',
-        string $rootPath = '/test',
+        string $rootPath = '/tmp/test',
         string $languageLevel = '7.4',
         bool $fullDocs = true
     ): ApiServerCodeGenerator {
