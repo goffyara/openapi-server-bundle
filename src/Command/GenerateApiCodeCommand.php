@@ -49,6 +49,7 @@ final class GenerateApiCodeCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
+        $output->writeln($this->rootPath);
         $this->cache->invalidateTags([SpecificationLoader::CACHE_TAG]);
         $this->apiServerCodeGenerator->generate();
 
